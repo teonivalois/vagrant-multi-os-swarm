@@ -1,7 +1,5 @@
 Vagrant.configure("2") do |config|
 
-    # manager ssh password: tcuser
-
     config.vm.synced_folder ".", "/vagrant"
 
     config.vm.define "linux-manager1", primary: true do |cfg|

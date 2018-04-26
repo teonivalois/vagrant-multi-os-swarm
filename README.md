@@ -5,13 +5,13 @@ Used [31z4/vagrant-boot2docker-swarm](https://github.com/31z4/vagrant-boot2docke
 Run the following commang and wait a few minutes..
 
 ```console
-$ vagrant up
+foo@bar:~$ vagrant up
 ```
 
 The swarm has a single manager and two worker nodes:
 
 ```console
-$ vagrant ssh
+foo@bar:~$ vagrant ssh
 Current machine states:
 
 linux-manager1            running (virtualbox)
@@ -26,7 +26,7 @@ VM, run `vagrant status NAME`.
 You can then SSH into the manager. The SSH password is: _tcuser_
 
 ```console
-$ vagrant ssh
+foo@bar:~$ vagrant ssh
 ==> linux-manager1: The machine you're attempting to SSH into is configured to use
 ==> linux-manager1: password-based authentication. Vagrant can't script entering the
 ==> linux-manager1: password for you. If you're prompted for a password, please enter
